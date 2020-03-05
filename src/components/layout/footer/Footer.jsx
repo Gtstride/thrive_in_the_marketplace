@@ -6,7 +6,9 @@ const Footer = () => {
       <div className="container">
         <div className="hm-footer-copyright text-center">
           <p>
-            &copy; copyright Godstime Agho. design and developed by{" "}
+            Copyright &copy; {new Date().getFullYear()}
+            <br />
+            Design and developed by Godstime Agho (gtstrides) <br />
             <a href="https://www.gtstrides.com/">Godstime</a>
           </p>
         </div>

@@ -1,16 +1,31 @@
-import React from 'react'
+import React from "react";
 
-const AboutPage = ()  =>{
+import "./AboutPage.css";
+
+const AboutPage = () => {
   return (
-    <div>
-     <section>
-     <div class="section-heading text-center">
-				<h2>about me</h2>
-			</div>
-      
-     </section>
-    </div>
-  )
-}
+    <section id="about" className="about">
+      <div className="section-heading"></div>
+      <div className="container">
+        <div className="about-content">
+          <div className="row">
+            <div className="col-sm-12">
+              <h1 className="about-heading">
+                about Thriving-in-the-marketplace
+              </h1>
+              <div className="single-about-txt">
+                <p>
+                  Welcome to Thrive in Marketplace 2020 Thrive in the
+                  Marketplace is a series of training sessions to help business
+                  grow in 2020
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
 
 export default AboutPage;

@@ -18,7 +18,6 @@ function App() {
     <Router>
       <div className="App">
         <NavBar />
-        {/* <AboutPage /> */}
         <Route exact path="/" component={Home} />
 
         <div className="container">
@@ -28,6 +27,7 @@ function App() {
         </div>
 
         <Route exact path="/gallery" component={GalleryView} />
+        <Route exact path="/about" component={AboutPage} />
 
         <Footer />
       </div>
