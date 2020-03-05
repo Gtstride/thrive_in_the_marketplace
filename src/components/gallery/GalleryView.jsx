@@ -1,76 +1,79 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
-const GalleryView = ()  => {
+const GalleryView = () => {
   return (
     <div>
-      		<section id="portfolio" class="portfolio">
-			<div class="portfolio-details">
-				<div class="section-heading text-center">
-					<h2>portfolio</h2>
-				</div>
-				<div class="container">
-					<div class="portfolio-content">
-						<div class="isotope">
-							<div class="row">
+      <section id="portfolio" className="portfolio">
+        <div className="portfolio-details">
+          <div className="section-heading text-center">
+            <h2>portfolio</h2>
+          </div>
+          <div className="container">
+            <div className="portfolio-content">
+              <div className="isotope">
+                <div className="row">
+                  <div className="col-sm-4">
+                    <div className="item">
+                      <img
+                        src="assets/images/portfolio/gt.jfif"
+                        alt="portfolio"
+                      />
+                      <div className="isotope-overlay">
+                        <Link to="/godstime">ui/ux design</Link>
+                      </div>
+                    </div>
+                    <div className="item">
+                      <img
+                        src="assets/images/portfolio/ken.jfif"
+                        alt="portfolio"
+                      />
+                      <div className="isotope-overlay">
+                        <Link to="/kehinde">Digital Marketing</Link>
+                      </div>
+                    </div>
+                  </div>
 
-								<div class="col-sm-4">
-									<div class="item">
-										<img src="assets/images/portfolio/p1.jpg" alt="portfolio"/>
-										<div class="isotope-overlay">
-											<a href="/">
-												ui/ux design
-											</a>
-										</div>
-									</div>
-									<div class="item">
-										<img src="assets/images/portfolio/p2.jpg" alt="portfolio"/>
-										<div class="isotope-overlay">
-											<a href="/">
-												Digital Marketing
-											</a>
-										</div>
-									</div>
-								</div>
+                  <div className="col-sm-4">
+                    <div className="item">
+                      <img
+                        src="assets/images/portfolio/fliy.jfif"
+                        alt="portfolio"
+                      />
+                      <div className="isotope-overlay">
+                        <Link to="/about">Market Place Success</Link>
+                      </div>
+                    </div>
+                  </div>
 
-								<div class="col-sm-4">
-									<div class="item">
-										<img src="assets/images/portfolio/p3.jpg" alt="portfolio"/>
-										<div class="isotope-overlay">
-											<a href="/">
-												web design
-											</a>
-										</div>
-									</div>
-								</div>
-
-								<div class="col-sm-4">
-									<div class="item">
-										<img src="assets/images/portfolio/p4.jpg" alt="portfolio"/>
-										<div class="isotope-overlay">
-											<a href="/">
-												web development
-											</a>
-										</div>
-									</div>
-									<div class="item">
-										<img src="assets/images/portfolio/p5.jpg" alt="portfolio"/>
-										<div class="isotope-overlay">
-											<a href="/">
-												Life coach
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</section>
-      
+                  <div className="col-sm-4">
+                    <div className="item">
+                      <img
+                        src="assets/images/portfolio/gt.jfif"
+                        alt="portfolio"
+                      />
+                      <div className="isotope-overlay">
+                        <Link to="/godstime">web development</Link>
+                      </div>
+                    </div>
+                    <div className="item">
+                      <img
+                        src="assets/images/portfolio/life.jfif"
+                        alt="portfolio"
+                      />
+                      <div className="isotope-overlay">
+                        <Link to="/shola">Life coach</Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-  )
-}
+  );
+};
 
-export default GalleryView
+export default GalleryView;

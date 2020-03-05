@@ -13,22 +13,22 @@ const ProfileOne = () => {
               <h1 className="about-heading">about GodsTime Agho</h1>
               <div className="single-about-txt">
                 <h3>
-                  I am a Professional UI/UX Designer and Web developer.
-                  Consectetur an adipisi elita, sed do eiusmod tempor incididunt
-                  ut labore et dolore magna aliqua. Ut enim ad minim veniam quis
-                  nostrud.
+                  A Professional Software Designer and Web developer. A media
+                  Enthausaiast, Who love to create solutions using technology,
                 </h3>
 
                 <p>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat non proident, sunt in culpa qui officia
-                  deserunt mollit anim id est laborum. Sed ut perspi unde omnis
-                  iste natus error sit voluptatem accusantium doloremque lauda
-                  ntium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                  veritatis et quasi architecto beatae vitae dicta sunt
-                  explicabo. Nemo enim ipsam vo luptatem quia voluptas sit
-                  aspernatur aut odit aut fugit,
+                  A google certified android developer 2017 /2018, a certified
+                  openclassrom graduate in different technologies of the web , a
+                  former Pre-Andela Fellow, a seasoned Web App developer vast in
+                  JavaScript, and in different Frameworks." "Due to his passion
+                  for technology, he found himself in the field of technology,
+                  knowledgeable and vast in Video-editing, Setting-Up
+                  Multi-media departments, Animations, creating web
+                  applications, using applications as, Premiere Pro, Photoshop,
+                  and generally, the Adobe suit and the Microsoft Suit, just to
+                  mention but a few of the technologies he has acquired over the
+                  years."
                 </p>
                 <div className="row">
                   <div className="col-sm-4">
@@ -58,27 +58,27 @@ const ProfileOne = () => {
                 <div className="about-list-icon">
                   <ul>
                     <li>
-                      <a href="/">
+                      <a href="https://facebook.com/GTstride.godstime.omo.E.Agho">
                         <i className="fa fa-facebook" aria-hidden="true"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="/">
+                      <a href="www.godstime.com">
                         <i className="fa fa-dribbble" aria-hidden="true"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="/">
+                      <a href="https://twitter.com/gtstrides_4lyfe">
                         <i className="fa fa-twitter" aria-hidden="true"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="/">
+                      <a href="https://linkedin.com/in/godstime">
                         <i className="fa fa-linkedin" aria-hidden="true"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="/">
+                      <a href="https://www.instagram.com/gtstride/">
                         <i className="fa fa-instagram" aria-hidden="true"></i>
                       </a>
                     </li>
