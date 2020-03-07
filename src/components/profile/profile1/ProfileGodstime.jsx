@@ -14,21 +14,21 @@ const ProfileOne = () => {
               <div className="single-about-txt">
                 <h3>
                   A Professional Software Designer and Web developer. A media
-                  Enthausaiast, Who love to create solutions using technology,
+                  Enthausaiast, Who love to create solutions using technology, A
+                  google certified android developer 2017 /2018, a certified
+                  openclassrom graduate in different technologies of the web ,
                 </h3>
 
                 <p>
-                  A google certified android developer 2017 /2018, a certified
-                  openclassrom graduate in different technologies of the web , a
-                  former Pre-Andela Fellow, a seasoned Web App developer vast in
-                  JavaScript, and in different Frameworks." "Due to his passion
+                  A former Pre-Andela Fellow, a seasoned Web App developer vast
+                  in JavaScript, and in different Frameworks. Due to his passion
                   for technology, he found himself in the field of technology,
                   knowledgeable and vast in Video-editing, Setting-Up
                   Multi-media departments, Animations, creating web
                   applications, using applications as, Premiere Pro, Photoshop,
                   and generally, the Adobe suit and the Microsoft Suit, just to
                   mention but a few of the technologies he has acquired over the
-                  years."
+                  years.
                 </p>
                 <div className="row">
                   <div className="col-sm-4">

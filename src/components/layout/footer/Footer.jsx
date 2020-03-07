@@ -9,7 +9,7 @@ const Footer = () => {
             Copyright &copy; {new Date().getFullYear()}
             <br />
             Design and developed by Godstime Agho (gtstrides) <br />
-            <a href="https://www.gtstrides.com/">Godstime</a>
+            <a href="https://www.gtstrides.com/" className="disabled">Godstime <span>Contact: +234 803 941 5912</span> </a>
           </p>
         </div>
       </div>
