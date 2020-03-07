@@ -1,7 +1,4 @@
 import React from "react";
-// import { Link } from "react-router-dom";
-
-// import ReserveSpace from '../../reserve-space/'
 
 const HomePage = () => {
   return (
@@ -18,7 +15,7 @@ const HomePage = () => {
                 </h2>
                 <p>Thrive In The Market Place</p>
                 <a href="https://forms.gle/5UpX7HVnb8sKHhAz8">
-                  Reserve Your Space
+                  CLICK TO REGISTER
                 </a>
               </div>
             </div>
